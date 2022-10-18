@@ -1,0 +1,278 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-17T12:09:04.051Z",
+        "line": 13,
+        "name": "\"User successfully search Apple iPhone 11 64GB\"",
+        "description": "",
+        "id": "search-product;\"\u003cscenariodescription\u003e\";;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1065333433,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProductsStepDefinition.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12594498145,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Land on the site",
+            "match": {
+              "location": "ProductsStepDefinition.landOnTheSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (964, 700)\n  (Session info: chrome\u003d106.0.5249.119)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Sandiles-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:10ac:81b0:5d80:3eec%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.6\u0027, java.version: \u002719\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5y/hy5_x_r97s1...}, goog:chromeOptions: {debuggerAddress: localhost:58506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4a43f6c651246766ce126d5eb0ee2829\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat stepDefinitions.ProductsStepDefinition.iCanSearchProductItem(ProductsStepDefinition.java:56)\n\tat ✽.I can search product item \"Apple iPhone 11 64GB\"(file:src/test/resources/features/SearchProductItem.feature:6)\n",
+              "duration": 7831300761,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I can search product item \"Apple iPhone 11 64GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple iPhone 11 64GB\"",
+                  "offset": 26
+                }
+              ],
+              "location": "ProductsStepDefinition.iCanSearchProductItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 838246,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I can assert the search results \"Apple iPhone 11 64GB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple iPhone 11 64GB\"",
+                  "offset": 32
+                }
+              ],
+              "location": "ProductsStepDefinition.iCanAssertTheSearchResults(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 672551,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I can validate the deal \"R399 PM\" \"36 months\" \"Online Exclusive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"R399 PM\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"36 months\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Online Exclusive\"",
+                  "offset": 46
+                }
+              ],
+              "location": "ProductsStepDefinition.iCanValidateTheDeal(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145310,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I can get the deal and validate order summary \"Apple iPhone 11 64GB\" \"36 months\" \"Online Exclusive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple iPhone 11 64GB\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"36 months\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"Online Exclusive\"",
+                  "offset": 81
+                }
+              ],
+              "location": "ProductsStepDefinition.iCanGetTheDealAndValidateOrderSummary(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchProduct"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-17T12:09:25.626Z",
+        "line": 14,
+        "name": "\"Samsung Galaxy S21 FE 5G DS + Samsung Galaxy Buds Live\"",
+        "description": "",
+        "id": "search-product;\"\u003cscenariodescription\u003e\";;3",
+        "after": [
+          {
+            "result": {
+              "duration": 635988450,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ProductsStepDefinition.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5151246325,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Land on the site",
+            "match": {
+              "location": "ProductsStepDefinition.landOnTheSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d106.0.5249.119)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Sandiles-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:10ac:81b0:5d80:3eec%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.6\u0027, java.version: \u002719\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/5y/hy5_x_r97s1...}, goog:chromeOptions: {debuggerAddress: localhost:58553}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ca11fc5b1c18e93ef99badbde031593b\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\n\tat stepDefinitions.ProductsStepDefinition.iCanSearchProductItem(ProductsStepDefinition.java:60)\n\tat ✽.I can search product item \"Samsung Galaxy S21 FE 5G DS + Samsung Galaxy Buds Live\"(file:src/test/resources/features/SearchProductItem.feature:6)\n",
+              "duration": 6135507768,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I can search product item \"Samsung Galaxy S21 FE 5G DS + Samsung Galaxy Buds Live\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Samsung Galaxy S21 FE 5G DS + Samsung Galaxy Buds Live\"",
+                  "offset": 26
+                }
+              ],
+              "location": "ProductsStepDefinition.iCanSearchProductItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 254068,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I can assert the search results \"Samsung Galaxy S21 FE 5G DS + Samsung Galaxy Buds Live\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Samsung Galaxy S21 FE 5G DS + Samsung Galaxy Buds Live\"",
+                  "offset": 32
+                }
+              ],
+              "location": "ProductsStepDefinition.iCanAssertTheSearchResults(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 172628,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I can validate the deal \"R399 PM\" \"36 months\" \"Online Exclusive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"R399 PM\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"36 months\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Online Exclusive\"",
+                  "offset": 46
+                }
+              ],
+              "location": "ProductsStepDefinition.iCanValidateTheDeal(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111906,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I can get the deal and validate order summary \"Samsung Galaxy S21 FE 5G DS + Samsung Galaxy Buds Live\" \"36 months\" \"Online Exclusive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Samsung Galaxy S21 FE 5G DS + Samsung Galaxy Buds Live\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"36 months\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"Online Exclusive\"",
+                  "offset": 115
+                }
+              ],
+              "location": "ProductsStepDefinition.iCanGetTheDealAndValidateOrderSummary(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchProduct"
+          }
+        ]
+      }
+    ],
+    "name": "Search Product",
+    "description": "",
+    "id": "search-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SearchProductItem.feature",
+    "tags": [
+      {
+        "name": "@searchProduct",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
